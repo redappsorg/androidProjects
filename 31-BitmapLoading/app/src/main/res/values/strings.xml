@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Bitmap Loading</string>
+    <string name="load">Load</string>
+</resources>
