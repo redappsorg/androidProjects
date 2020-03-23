@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pop-up</string>
+    <string name="button">Show Game Result</string>
+    <string name="close">Close</string>
+    <string name="bronze_score">Bronze Score</string>
+    <string name="bronze_name">Bronze Name</string>
+    <string name="silver_score">Silver Score</string>
+    <string name="silver_name">Silver Name</string>
+    <string name="gold_name">Gold Name</string>
+    <string name="gold_score">Gold Score</string>
+</resources>
