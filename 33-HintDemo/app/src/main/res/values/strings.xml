@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hint Demo</string>
+    <string name="ordering_doughnuts">You are ordering doughnuts.</string>
+    <string name="amount">Amount:</string>
+    <string name="boxes">In boxes of ten</string>
+    <string name="ordering_jellybeans">You are ordering jellybeans.</string>
+</resources>
