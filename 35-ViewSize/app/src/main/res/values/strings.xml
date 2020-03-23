@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">View Size</string>
+    <string name="screen_x_y">Screen X,Y:</string>
+    <string name="question_mark">\?</string>
+    <string name="imageview_x_y">ImageView X,Y</string>
+    <string name="layout_x_y">Layout X,Y</string>
+</resources>

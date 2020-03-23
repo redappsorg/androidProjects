@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/labXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/screen_x_y"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:id="@+id/textXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/labXY"
+        android:background="#ff000000"
+        android:text="@string/question_mark"
+        android:textAppearance="@android:style/TextAppearance.Large.Inverse" />
+
+    <TextView
+        android:id="@+id/imageLabXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/labXY"
+        android:layout_alignStart="@+id/labXY"
+        android:layout_below="@+id/labXY"
+        android:layout_marginTop="16dp"
+        android:text="@string/imageview_x_y"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:id="@+id/imageXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/imageLabXY"
+        android:layout_alignBottom="@+id/imageLabXY"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/imageLabXY"
+        android:layout_toRightOf="@+id/imageLabXY"
+        android:background="#ff000000"
+        android:text="@string/question_mark"
+        android:textAppearance="@android:style/TextAppearance.Large.Inverse" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageLabXY"
+        android:layout_alignStart="@+id/imageLabXY"
+        android:layout_below="@+id/imageLabXY"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/layoutLabXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="16dp"
+        android:text="@string/layout_x_y"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:id="@+id/layoutXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/layoutLabXY"
+        android:layout_alignBottom="@+id/layoutLabXY"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/layoutLabXY"
+        android:layout_toRightOf="@+id/layoutLabXY"
+        android:background="#ff000000"
+        android:text="@string/question_mark"
+        android:textAppearance="@android:style/TextAppearance.Large.Inverse" />
+</RelativeLayout>
