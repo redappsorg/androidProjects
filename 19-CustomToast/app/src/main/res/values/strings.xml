@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Toast!</string>
+    <string name="app_name">CustomToast</string>
+    <string name="show_custom_toast">Show Custom Toast</string>
+</resources>
